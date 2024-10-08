@@ -7,48 +7,48 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 22943180
+API_HASH = "959c2bb02b08982d0d4081572364381c"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "8146955815:AAE-f0cTQJ-fZPzUOgjRDShlarzE81nb31U"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://shennzod123:shennzod123@cluster0.nhx0z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -1002444369368
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 6444435371
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("sarkar op")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HRKU-b3b8559d-7a15-4d64-bbd0-0997886e0ab6")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/rishabhops/alice",
+    "https://github.com/bananapeachlover/alice",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/thanos_pro"
-SUPPORT_GROUP = "https://t.me/thanosprosss"
+SUPPORT_CHANNEL = "https://t.me/DAWNCHEATS"
+SUPPORT_GROUP = "https://t.me/DAWNCHEATS"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "8617b25da6d24ac8a57d614b0bc2745d)
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "764f6d4f4d3d443fbdcdb69135144d79")
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
@@ -63,7 +63,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 # Get your pyrogram v2 session from Replit
 STRING1 = "STRING_SESSION"
-STRING2 = getenv("STRING_SESSION2", None)
+STRING2 = getenv("STRING_SESSION2", BQFeFcwAPPqWM3cWUEwdPK94zIaY5L9AXmBrtTnYpUZrl03L3kbWjZPaWYFlWPJm7YwR7NGhEFt_u0u1KJKv5EGUy94iY45rbl0dJmd094qq6lW2xuz7V6Oe4duZkFj7KLeR04QvAlKiaU_gsq5aJRHhd6QdZ48RpJkFH8fLAKs5cBaCwUQkXTl8isK4MmG1NLknGP3Hptq9wU6G6AayuNZDOfIt_joAkDipxfxt5h55ge9lPQLWDkqcD2rWtb-HqlmFciMZ8EwrlpGYAt1ncCFdRvhvEzxkZDpAYmiGrtQKOpM1Riu4PbQM-4k-PPVgo5DdwEu06AjekRKPhZ4vc5A-Giv3_wAAAAFT4DaZAA)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
